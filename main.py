@@ -1582,7 +1582,7 @@ if __name__ == '__main__':
         sp.ui.splash_label.setText('Подготовка к запуску...')
         QApplication.processEvents()
         username = start.ui.comboBox.currentText()
-        # TODO здесь проверка на роль юзера и открытие соотвествующего его роли интерфейса
+        ## TODO здесь проверка на роль юзера и открытие соотвествующего его роли интерфейса!
         worker_id = db.get_user_id_by_name(username)
         # window = ExtrusionWindow(worker_id=worker_id)
         # Calculator()

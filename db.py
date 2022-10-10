@@ -1,4 +1,3 @@
-# import json
 import sqlite3
 # from pprint import pprint
 import time

@@ -2,7 +2,7 @@ import db
 from settings import *
 import requests
 from datetime import datetime
-# from pprint import pprint
+## from pprint import pprint
 
 
 def control_notification(roll_id):

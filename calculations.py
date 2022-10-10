@@ -20,7 +20,7 @@ def time_sum(time: List[str]) -> timedelta:
         timedelta(),
     )
 
-
+##
 def weight_1m(width: float, fold: float, thickness, k: float):
     if isinstance(fold, str) or not fold:
         fold = 0
